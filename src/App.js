@@ -1,3 +1,5 @@
+import Typewriter from "typewriter-effect";
+
 import "./App.css";
 import "./style.scss";
 
@@ -11,17 +13,33 @@ function App() {
               <h3>Nguyễn Tú Anh</h3>
             </div>
             <div className="intro-social-media">
-              <a href>
+              <a
+                href="https://www.facebook.com/SleepingSlayer/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i className="fab fa-facebook-f" />
               </a>
-              <a href>
+              <a
+                href="https://www.facebook.com/SleepingSlayer/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i className="fab fa-instagram" />
               </a>
-              <a href>
+              <a
+                href="https://github.com/TuZit"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <i className="fab fa-github" />
               </a>
-              <a href>
-                <i className="fab fa-linkedin-in" />
+              <a
+                href="mailto:nguyentuanh141.uet.vnu@gmail.com"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <i class="far fa-envelope"></i>
               </a>
             </div>
             <div className="navbar">
@@ -46,11 +64,27 @@ function App() {
           <div
             className="right-banner"
             style={{
-              backgroundImage: "url(./img/bg_1.jpg)",
+              backgroundImage: "url(./img/bg_3.jpg)",
             }}
           >
             <h2>Nguyễn Tú Anh</h2>
-            <p>Front End Developer</p>
+            <p>
+              <Typewriter
+                options={{
+                  autoStart: true,
+                  loop: true,
+                  delay: 50,
+                  cursor: "|",
+                  pauseFor: 4000,
+                  deleteSpeed: 20,
+                  strings: [
+                    "Welcome to visit my CV online! ",
+                    "Wanna to be your Interns",
+                    "Front End Developer",
+                  ],
+                }}
+              />
+            </p>
           </div>
           <div className="about">
             <h3>Một chút về bản thân</h3>
