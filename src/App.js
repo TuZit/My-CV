@@ -170,12 +170,12 @@ function App() {
           <div id="education">
             <h3>Học Vấn</h3>
             <div className="edu-container">
-              <h4>09/2017-01/2022</h4>
+              <h4>09/2017 - 01/2022</h4>
               <p>Sinh viên tại Đại Học Công Nghệ - ĐHQG HN</p>
               <span style={{ fontSize: "1.6rem" }}>
                 Tốt nghiệp chuyên ngành Cơ Kỹ Thuật
               </span>
-              <h4>10/2021-12/2021</h4>
+              <h4>10/2021 - 12/2021</h4>
               <p>Học viên tại FPT Software Academy</p>
               <span style={{ fontSize: "1.6rem" }}>
                 Khoá học: Front-end Developer
@@ -202,7 +202,7 @@ function App() {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        Source Code(Githhub)
+                        Source Code
                       </a>
                     </p>
                   </div>
@@ -228,7 +228,7 @@ function App() {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        Source Code(Githhub)
+                        Source Code
                       </a>
                     </p>
                   </div>
@@ -254,7 +254,7 @@ function App() {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        Source Code(Githhub)
+                        Source Code
                       </a>
                     </p>
                   </div>
@@ -280,7 +280,33 @@ function App() {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        Source Code(Githhub)
+                        Source Code
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="project-items">
+                <img src="./img/pr_5.png" alt="" />
+                <div className="project-items__modal">
+                  <div className="pr-modal__overlay" />
+                  <div className="pr-modal__body">
+                    <p>
+                      <a
+                        href="https://my-cv-tuu.herokuapp.com/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        View Project
+                      </a>
+                    </p>
+                    <p>
+                      <a
+                        href="https://github.com/TuZit/My-CV"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Source Code
                       </a>
                     </p>
                   </div>
