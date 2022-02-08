@@ -184,6 +184,28 @@ ul {
       padding-left: 8rem;
     }
   }
+
+  button {
+    border: 1px solid #5ac0f0;
+    padding: 1rem 2rem;
+    margin-left: 20rem;
+    margin-top: 2rem;
+    background-color: #5ac0f0;
+
+    &:hover {
+      background-color: #149ddd;
+    }
+    a {
+      font-size: 2rem;
+      color: #fff;
+    }
+    @media screen and (max-width: 600px) {
+      margin-left: 8rem;
+      a {
+        font-size: 1.6rem;
+      }
+    }
+  }
 }
 
 .about {

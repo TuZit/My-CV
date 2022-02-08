@@ -70,6 +70,11 @@ function App() {
                   <li>
                     <a href="#">Contact</a>
                   </li>
+                  <li>
+                    <a href="./HTML5 XP_Session 1.pdf" download>
+                      Download CV
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -101,6 +106,11 @@ function App() {
                 ],
               }}
             />
+            <button>
+              <a href="./HTML5 XP_Session 1.pdf" download>
+                Download CV
+              </a>
+            </button>
           </div>
           <div className="about">
             <h3 className="section-title">Một chút về bản thân</h3>
