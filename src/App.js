@@ -1,9 +1,21 @@
+import { useEffect } from "react";
 import Typewriter from "typewriter-effect";
 
 import "./App.css";
 import "./style.scss";
 
 function App() {
+  useEffect(() => {
+    const menuBtn = document.querySelector(".responsive-menu");
+    const leftMenu = document.querySelector(".left-container");
+    menuBtn.addEventListener("click", () => {
+      leftMenu.classList.toggle("show");
+    });
+
+    return menuBtn.removeEventListener("click", () => {
+      leftMenu.classList.toggle("show");
+    });
+  }, []);
   return (
     <div className="App">
       <div className="main">
@@ -39,22 +51,22 @@ function App() {
                 rel="noreferrer"
                 target="_blank"
               >
-                <i class="far fa-envelope"></i>
+                <i className="far fa-envelope"></i>
               </a>
             </div>
             <div className="navbar">
               <ul>
                 <li>
-                  <a href>Home</a>
+                  <a href="#">Home</a>
                 </li>
                 <li>
-                  <a href>About me</a>
+                  <a href="#">About me</a>
                 </li>
                 <li>
-                  <a href>Project</a>
+                  <a href="#">Project</a>
                 </li>
                 <li>
-                  <a href>Contact</a>
+                  <a href="#">Contact</a>
                 </li>
               </ul>
             </div>
@@ -67,27 +79,28 @@ function App() {
               backgroundImage: "url(./img/bg_3.jpg)",
             }}
           >
+            <div className="responsive-menu">
+              <i className="fas fa-bars"></i>
+            </div>
             <h2>Nguyễn Tú Anh</h2>
-            <p>
-              <Typewriter
-                options={{
-                  autoStart: true,
-                  loop: true,
-                  delay: 50,
-                  cursor: "|",
-                  pauseFor: 4000,
-                  deleteSpeed: 20,
-                  strings: [
-                    "Welcome to visit my CV online! ",
-                    "Wanna to be your Interns",
-                    "Front End Developer",
-                  ],
-                }}
-              />
-            </p>
+            <Typewriter
+              options={{
+                autoStart: true,
+                loop: true,
+                delay: 50,
+                cursor: "|",
+                pauseFor: 4000,
+                deleteSpeed: 20,
+                strings: [
+                  "Welcome to visit my CV online! ",
+                  "Wanna to be your Interns",
+                  "Front End Developer",
+                ],
+              }}
+            />
           </div>
           <div className="about">
-            <h3>Một chút về bản thân</h3>
+            <h3 className="section-title">Một chút về bản thân</h3>
             <div className="about-me">
               <div className="about__myself">
                 <p>
@@ -145,30 +158,33 @@ function App() {
           </div>
           {/* Skills */}
           <div className="skills">
-            <div className="skill-left">
-              <h4>Kỹ năng chuyên môn</h4>
-              <p>
-                Hiểu biết cơ bản về HTML, CSS và JS. Bắt đầu tìm hiểu về
-                Function Components và React Hook. Bản thân tôi đã tìm đến các
-                tài liệu lập trình trên Internet, học tập và cố gắng từng ngày.
-              </p>
-            </div>
-            <div className="skill-right">
-              <div className="skill-right__img">
-                <img src="./img/html-5.png" alt="" />
-                <img src="./img/css.png" alt="" />
-                <img src="./img/javascript.png" alt="" />
+            <h3 className="section-title">Kỹ năng chuyên môn</h3>
+            <div className="skills__container">
+              <div className="skill-left">
+                <p>
+                  Hiểu biết cơ bản về HTML, CSS và JS. Bắt đầu tìm hiểu về
+                  Function Components và React Hook. Bản thân tôi đã tìm đến các
+                  tài liệu lập trình trên Internet, học tập và cố gắng từng
+                  ngày.
+                </p>
               </div>
-              <div className="skill-right__img">
-                <img src="./img/react.png" alt="" />
-                <img src="./img/sass.png" alt="" />
-                <img src="./img/github.png" width={60} height={60} alt="" />
+              <div className="skill-right">
+                <div className="skill-right__img">
+                  <img src="./img/html-5.png" alt="" />
+                  <img src="./img/css.png" alt="" />
+                  <img src="./img/javascript.png" alt="" />
+                </div>
+                <div className="skill-right__img">
+                  <img src="./img/react.png" alt="" />
+                  <img src="./img/sass.png" alt="" />
+                  <img src="./img/github.png" width={60} height={60} alt="" />
+                </div>
               </div>
             </div>
           </div>
           {/* Edu */}
           <div id="education">
-            <h3>Học Vấn</h3>
+            <h3 className="section-title">Học Vấn</h3>
             <div className="edu-container">
               <h4>09/2017 - 01/2022</h4>
               <p>Sinh viên tại Đại Học Công Nghệ - ĐHQG HN</p>
@@ -184,7 +200,7 @@ function App() {
           </div>
           {/* Projects */}
           <div id="projects">
-            <h3>Một số Projects</h3>
+            <h3 className="section-title">Một số Projects</h3>
             <div className="projects-wrap">
               <div className="project-items">
                 <img src="./img/pr_1.png" alt="" />
