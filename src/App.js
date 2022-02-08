@@ -71,7 +71,7 @@ function App() {
                     <a href="#">Contact</a>
                   </li>
                   <li>
-                    <a href="./HTML5 XP_Session 1.pdf" download>
+                    <a href="./Nguyen-Tu-Anh_Interns-Front-End.pdf" download>
                       Download CV
                     </a>
                   </li>
@@ -107,7 +107,7 @@ function App() {
               }}
             />
             <button>
-              <a href="./HTML5 XP_Session 1.pdf" download>
+              <a href="./Nguyen-Tu-Anh_Interns-Front-End.pdf" download>
                 Download CV
               </a>
             </button>
