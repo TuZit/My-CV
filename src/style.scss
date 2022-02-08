@@ -24,6 +24,10 @@ ul {
 
 .main {
   display: flex;
+  @media screen and (max-width: 600px) {
+    overflow: hidden;
+    max-width: 100vw;
+  }
 }
 
 .left-container {
@@ -67,6 +71,7 @@ ul {
   left: 0;
   margin-top: 4rem;
   margin-left: 3rem;
+  transition: all 0.5s ease-in-out;
   @media screen and (max-width: 600px) {
     margin: 0;
     background-color: #040b14;
@@ -354,6 +359,9 @@ ul {
   text-align: center;
   font-size: 3rem;
   padding: 4rem 0;
+  @media screen and (max-width: 600px) {
+    font-size: 2rem;
+  }
 }
 
 .section-title {
