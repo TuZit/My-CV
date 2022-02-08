@@ -20,55 +20,58 @@ function App() {
     <div className="App">
       <div className="main">
         <div className="left-container">
-          <div className="left-wrap">
-            <div className="intro-name">
-              <h3>Nguyễn Tú Anh</h3>
-            </div>
-            <div className="intro-social-media">
-              <a
-                href="https://www.facebook.com/SleepingSlayer/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className="fab fa-facebook-f" />
-              </a>
-              <a
-                href="https://www.facebook.com/SleepingSlayer/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className="fab fa-instagram" />
-              </a>
-              <a
-                href="https://github.com/TuZit"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <i className="fab fa-github" />
-              </a>
-              <a
-                href="mailto:nguyentuanh141.uet.vnu@gmail.com"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <i className="far fa-envelope"></i>
-              </a>
-            </div>
-            <div className="navbar">
-              <ul>
-                <li>
-                  <a href="#">Home</a>
-                </li>
-                <li>
-                  <a href="#">About me</a>
-                </li>
-                <li>
-                  <a href="#">Project</a>
-                </li>
-                <li>
-                  <a href="#">Contact</a>
-                </li>
-              </ul>
+          <div>
+            <div className="left-wrap">
+              <div className="intro-name">
+                <h3>Nguyễn Tú Anh</h3>
+                <img src="img/avatar.jpg" alt="avatar" />
+              </div>
+              <div className="intro-social-media">
+                <a
+                  href="https://www.facebook.com/SleepingSlayer/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fab fa-facebook-f" />
+                </a>
+                <a
+                  href="https://www.facebook.com/SleepingSlayer/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fab fa-instagram" />
+                </a>
+                <a
+                  href="https://github.com/TuZit"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <i className="fab fa-github" />
+                </a>
+                <a
+                  href="mailto:nguyentuanh141.uet.vnu@gmail.com"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <i className="far fa-envelope"></i>
+                </a>
+              </div>
+              <div className="navbar">
+                <ul>
+                  <li>
+                    <a href="#">Home</a>
+                  </li>
+                  <li>
+                    <a href="#">About me</a>
+                  </li>
+                  <li>
+                    <a href="#">Project</a>
+                  </li>
+                  <li>
+                    <a href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -108,8 +111,10 @@ function App() {
                   hướng trở thành một Front-End Developer. Luôn cố gắng hoàn
                   thành các công việc được giao, vào những đóng góp của bộ phận
                   và công ty. Từ đó góp 1 phần đưa sản phẩm, bộ phận và công ty
-                  chất lượng hơn, phát triển hơn. Tạo tiền đề có cơ hội thăng
-                  tiến trở thành nhân viên chính thức của công ty.
+                  chất lượng hơn, phát triển hơn. Mong muốn được học hỏi nhiều
+                  hơn để hoàn thiện kỹ năng chuyên môn của công việc cũng như
+                  hoàn thiện bản thân. Tạo tiền đề có cơ hội thăng tiến trở
+                  thành nhân viên chính thức của công ty.
                 </p>
                 <p style={{ textAlign: "center", marginTop: "3rem" }}>
                   Thông tin liên hệ:
