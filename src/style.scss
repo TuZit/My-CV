@@ -24,10 +24,7 @@ ul {
 
 .main {
   display: flex;
-  @media screen and (max-width: 600px) {
-    overflow: hidden;
-    max-width: 100vw;
-  }
+  overflow: hidden;
 }
 
 .left-container {
@@ -45,8 +42,10 @@ ul {
 }
 .right-container {
   flex-basis: 80%;
+
   @media screen and (max-width: 600px) {
     flex-basis: 55%;
+    width: 100vw;
   }
 }
 
@@ -198,6 +197,12 @@ ul {
 .about__myself {
   p:first-child {
     margin-top: 1rem;
+    @media screen and (max-width: 600px) {
+      font-size: 1.4rem;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    font-size: 1.4rem;
   }
 }
 
@@ -207,6 +212,8 @@ ul {
   align-items: center;
   padding-top: 3rem;
   padding-bottom: 3rem;
+  width: 100vw;
+  overflow: hidden;
 
   @media screen and (max-width: 600px) {
     padding-top: 1rem;
@@ -220,6 +227,11 @@ ul {
     margin-top: 1rem;
   }
 
+  p {
+    @media screen and (max-width: 600px) {
+      font-size: 1.4rem;
+    }
+  }
   a {
     color: #000;
   }
@@ -246,6 +258,9 @@ ul {
   p {
     font-size: 1.6rem;
     padding-top: 1.2rem;
+    @media screen and (max-width: 600px) {
+      font-size: 1.4rem;
+    }
   }
 }
 
@@ -278,8 +293,12 @@ ul {
   margin-top: 1.2rem;
 
   h4,
-  p {
+  p,
+  span {
     font-size: 1.6rem;
+    @media screen and (max-width: 600px) {
+      font-size: 1.4rem !important;
+    }
   }
   p {
     padding: 0.5rem 0;
@@ -360,7 +379,7 @@ ul {
   font-size: 3rem;
   padding: 4rem 0;
   @media screen and (max-width: 600px) {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 }
 
