@@ -206,11 +206,20 @@ function App() {
               <span style={{ fontSize: "1.6rem" }}>
                 Tốt nghiệp chuyên ngành Cơ Kỹ Thuật
               </span>
+
               <h4>10/2021 - 12/2021</h4>
               <p>Học viên tại FPT Software Academy</p>
               <span style={{ fontSize: "1.6rem" }}>
                 Khoá học: Front-end Developer
               </span>
+
+              <h4>11/2021</h4>
+              <p>
+                <a href="https://www.freecodecamp.org/certification/playboiz_dua_dam/responsive-web-design">
+                  Chứng chỉ Responsive Web Design(Link)
+                </a>
+              </p>
+              <span style={{ fontSize: "1.6rem" }}>Tại freeCodeCamp</span>
             </div>
           </div>
           {/* Projects */}
