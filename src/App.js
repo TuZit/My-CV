@@ -215,7 +215,10 @@ function App() {
 
               <h4>11/2021</h4>
               <p>
-                <a href="https://www.freecodecamp.org/certification/playboiz_dua_dam/responsive-web-design">
+                <a
+                  style={{ color: "#000", textDecoration: "underline" }}
+                  href="https://www.freecodecamp.org/certification/playboiz_dua_dam/responsive-web-design"
+                >
                   Chứng chỉ Responsive Web Design(Link)
                 </a>
               </p>
@@ -343,6 +346,32 @@ function App() {
                     <p>
                       <a
                         href="https://github.com/TuZit/My-CV"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Source Code
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="project-items">
+                <img src="./img/pr_6.png" alt="" />
+                <div className="project-items__modal">
+                  <div className="pr-modal__overlay" />
+                  <div className="pr-modal__body">
+                    <p>
+                      <a
+                        href="https://tuzit.github.io/pricing-table/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        View Project
+                      </a>
+                    </p>
+                    <p>
+                      <a
+                        href="https://github.com/TuZit/pricing-table"
                         target="_blank"
                         rel="noreferrer"
                       >
