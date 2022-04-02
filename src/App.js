@@ -330,13 +330,13 @@ function App() {
                 </div>
               </div>
               <div className="project-items">
-                <img src="./img/pr_5.png" alt="" />
+                <img src="./img/orchid.png" alt="" />
                 <div className="project-items__modal">
                   <div className="pr-modal__overlay" />
                   <div className="pr-modal__body">
                     <p>
                       <a
-                        href="https://my-cv-tuu.herokuapp.com/"
+                        href="https://orchid-redux.netlify.app/"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -345,7 +345,7 @@ function App() {
                     </p>
                     <p>
                       <a
-                        href="https://github.com/TuZit/My-CV"
+                        href="https://github.com/TuZit/orchid-redux"
                         target="_blank"
                         rel="noreferrer"
                       >
